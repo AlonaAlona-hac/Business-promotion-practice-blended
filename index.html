@@ -9,8 +9,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@500;&family=Inter:ital,opsz,wght@500;700;&family=Montserrat:ital,wght@400;500;600;700;&family=Poppins:ital,wght@400;500;600;700;800;&family=Roboto:ital,wght@400;500;700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;&display=swap"
         rel="stylesheet">
     <title>Business promotion</title>
     <link rel="stylesheet" href="./css/style.css">
@@ -19,32 +21,34 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html">
-                <img src="./images/logo.png" alt="logo">Product</a>
-            <ul>
-                <li>
-                    <a href="./index.html">Product</a>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="navigation-header">
+                <a href="index.html" class="logo-header">
+                    <img src="./images/logo.png" alt="logo">Product</a>
+                <ul class="list-header">
+                    <li class="list-header-item">
+                        <a href="./index.html">Product</a>
+                    </li>
+                    <li class="list-header-item"> <a href="./pricing.html">Pricing</a>
+                    </li>
+                    <li class="list-header-item">
+                        <a href="./customers.html">Customers</a>
+                    </li>
+                    <li class="list-header-item">
+                        <a href="./resourses.html">Resourses</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="list-header-btn">
+                <li class="list-header-btn-item">
+                    <button class="button-header" type="button">Sign In</button>
                 </li>
-                <li> <a href="./pricing.html">Pricing</a>
-                </li>
-                <li>
-                    <a href="./customers.html">Customers</a>
-                </li>
-                <li>
-                    <a href="./resourses.html">Resourses</a>
+                <li class="list-header-btn-item">
+                    <button class="button-header" type="button">Sign Up</button>
                 </li>
             </ul>
-        </nav>
-        <ul>
-            <li>
-                <button type="button">Sign In</button>
-            </li>
-            <li>
-                <button type="button">Sign Up</button>
-            </li>
-        </ul>
+        </div>
     </header>
     <main>
         <section>
