@@ -721,8 +721,6 @@ button {
   color: #afafaf;
   white-space: nowrap;
 }
-.prs-descr-group {
-}
 .content-h5 {
   margin-bottom: 16px;
   font-weight: 500;
@@ -862,8 +860,6 @@ button {
   object-fit: cover;
   border-radius: 50%;
 }
-.feedb-cont {
-}
 .feedb-title {
   font-weight: 500;
   font-size: 14px;
@@ -953,24 +949,10 @@ button {
   height: 40px;
   gap: 16px;
 }
-.logo-text {
-}
-.footer-logo-product-logo {
-}
 .footer-logo {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-}
-.footer-icons {
-}
-.foot-insta {
-}
-.foot-face {
-}
-.foot-twit {
-}
-.footer-resource {
 }
 .foot-h4 {
   margin-bottom: 8px;
@@ -979,16 +961,14 @@ button {
   line-height: 1.5;
   color: #22343d;
 }
-.foot-resource-column {
-}
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 2.1875;
   color: #22343d;
 }
-.footer-stuff {
-}
+
 .foot-h4-last {
   max-width: 280px;
   font-weight: 500;
@@ -1010,10 +990,6 @@ input {
   height: 48px;
 }
 
-.footer-last-space {
-}
-.btn-footer {
-}
 .btn-cont {
   margin-top: 25px;
   border-radius: 4px;
