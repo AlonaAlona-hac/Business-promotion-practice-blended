@@ -926,10 +926,13 @@ button {
 }
 
 .footer {
-  max-width: 1150px;
+  margin: 0 auto;
+  max-width: 1110px;
   padding-bottom: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+}
+.footer-logo-product-logo {
+  display: flex;
+  align-items: center;
 }
 .container-footer {
   width: 1110px;
@@ -943,7 +946,6 @@ button {
 .footer-logo-product {
   display: flex;
   align-items: center;
-  margin-top: 18px;
   margin-bottom: 152px;
   max-width: 152px;
   height: 40px;
@@ -953,6 +955,24 @@ button {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
+}
+.logo-header-f {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+  display: flex;
+  gap: 16px;
+  text-transform: capitalize;
+  margin-right: 146px;
+  margin-bottom: 18px;
+  align-items: center;
+}
+.footer-about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 129px;
 }
 .foot-h4 {
   margin-bottom: 8px;
@@ -979,15 +999,34 @@ button {
 }
 .footer-last-column {
   max-width: 325px;
+  margin-left: 53px;
 }
+
 input {
-  background: #fff;
   border: 1px solid #bcd0e5;
   border-radius: 4px;
   width: 325px;
   height: 48px;
   max-width: 325px;
   height: 48px;
+}
+.footer-input-svg {
+  position: relative;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+.footer-input-svg input {
+  padding-left: 42px;
+}
+
+.footer-icons {
+  position: absolute;
+  width: 18px;
+  height: 28px;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
 }
 
 .btn-cont {
@@ -1008,4 +1047,18 @@ input {
   color: #22343d;
   text-align: center;
   padding-bottom: 68px;
+}
+.foot-h4-f {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #22343d;
+}
+.footer-tel::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #02897a;
 }
