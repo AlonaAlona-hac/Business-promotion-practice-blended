@@ -1097,4 +1097,37 @@ input {
 .form-button:hover {
   background-color: #235b49;
 }
-.strategy-cont-plus
+
+/*pricing*/
+.title-price-pr {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  margin-bottom: 32px;
+  margin-top: 50px;
+}
+.title-pricing-pr {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #22343d;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.text-pricing-pr {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 49px;
+}
+.title-price2-pr {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+  margin: auto;
+}
