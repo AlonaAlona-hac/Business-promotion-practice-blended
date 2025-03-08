@@ -38,8 +38,7 @@
 .enterprise {
   margin-bottom: 150px;
 }
-.section {
-}
+
 .title-entrp-pr {
   font-weight: 600;
   font-size: 24px;
@@ -126,9 +125,9 @@
 .faq {
   max-width: 920px;
   margin: auto;
+  margin-bottom: 150px;
 }
-.section {
-}
+
 .title-faq {
   font-weight: 700;
   font-size: 34px;
@@ -151,15 +150,78 @@
   color: #22343d;
   margin: 0;
 }
-.faq-list {
+.faq-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
 }
 .faq-item {
   display: flex;
   gap: 16px;
   margin-bottom: 38px;
 }
-
-.faq-images {
+.faq-summary {
+  margin-bottom: 14px;
 }
-.faq-title {
+.faq-icon.plus {
+  display: block;
+}
+.faq-icon.minus {
+  display: none;
+}
+details[open] .faq-icon.plus {
+  display: none;
+}
+details[open] .faq-icon.minus {
+  display: block;
+}
+details[open] svg {
+  transform: rotate(180deg);
+}
+summary {
+  cursor: pointer;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+.faq-summary {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.faq-summary::after {
+  content: "";
+  display: block;
+
+  border: 1px solid #e7e7e7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 920px;
+  height: 0px;
+}
+.boost {
+  margin-bottom: 150px;
+}
+.footer-social {
+  display: flex;
+}
+.foot-social {
+  gap: 16px;
+  background-color: #edfffc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-social {
+  stroke-width: 2px;
+  stroke: #02897a;
+  fill: #edfffc;
 }

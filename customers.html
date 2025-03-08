@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <!-- Google Fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,6 +15,7 @@
         rel="stylesheet">
     <title>Customers</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/customers.css" />
 
 </head>
 
@@ -49,44 +50,81 @@
         </div>
     </header>
     <main>
-        <section>
-            <h1>Our Clients</h1>
-            <ul>
-                <li>
-                    <img src="./images/airbnb-logo-2.png" alt="airbnb-logo" width="146">
+        <section class="clients">
+            <h1 class="title-clients1">Our Clients</h1>
+            <ul class="clients-list">
+                <li class="clients-item">
+                    <a href="" class="clients-logo">
+                        <svg class="svg-clients" width="159" height="50">
+                            <use href="./images/clients.svg#icon-Airbnb-Logo">
+                            </use>
+                        </svg>
+                    </a>
                 </li>
-                <li>
-                    <img src="./images/google-logo-2.png" alt="google-logo" width="146">
+                <li class="clients-item">
+                    <a href="" class="clients-logo">
+                        <svg class="svg-clients" width="146" height="50">
+                            <use href="./images/clients.svg#icon-Google-Logo">
+                            </use>
+                        </svg>
+                    </a>
                 </li>
-                <li>
-                    <img src="./images/microsoft-logo.png" alt="microsoft-logo" width="146">
+                <li class="clients-item">
+                    <a href="" class="clients-logo">
+                        <svg class="svg-clients" width="213" height="44">
+                            <use href="./images/clients.svg#icon-Microsoft-Logo">
+                            </use>
+                        </svg>
+                    </a>
                 </li>
-                <li>
-                    <img src="./images/fedex-logo-2.png" alt="fedex-logo" width="146">
+                <li class="clients-item">
+                    <a href="" class="clients-logo">
+                        <svg class="svg-clients" width="140" height="42">
+                            <use href="./images/clients.svg#icon-FedEx-Logo">
+                            </use>
+                        </svg>
+                    </a>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Why Choose Product?</h2>
-            <ul>
-                <li>
-                    <img src="./images/icon.png" alt="icon-image" width="51">
-                    <h3>Special Business</h3>
-                    <p>Product helps you see how many
+        <section class="features-customer">
+            <h2 class="title-feat-2">Why Choose Product?</h2>
+            <ul class="features-list-customer">
+                <li class="features-item-customer">
+                    <div class="features-content">
+                        <svg class="svg-features green">
+                            <use class="svg-icon-custm" href="./images/tiny.svg#icon-arrow" width="12" height="18">
+                            </use>
+                        </svg>
+                    </div>
+                    <h3 class="title3-feature-cust">Special Business</h3>
+                    <p class="customer-meaning">Product helps you see how many
                         more days you need to work
                         to reach your financial goal
                         for the month and year.</p>
                 </li>
-                <li><img src="./images/icon-2.png" alt="icon2-image" width="51">
-                    <h3>Instant Result</h3>
-                    <p>Product helps you see how many
+                <li class="features-item-customer">
+                    <div class="features-content">
+                        <svg class="svg-features blue">
+                            <use class="svg-icon-custm" href="./images/tiny.svg#icon-snake" width="18" height="18">
+                            </use>
+                        </svg>
+                    </div>
+                    <h3 class="title3-feature-cust">Instant Result</h3>
+                    <p class="customer-meaning">Product helps you see how many
                         more days you need to work
                         to reach your financial goal
                         for the month and year.</p>
                 </li>
-                <li><img src="./images/icon-3.png" alt="icon3-image" width="51">
-                    <h3>Fastest way to organize</h3>
-                    <p>Product helps you see how many
+                <li class="features-item-customer">
+                    <div class="features-content">
+                        <svg class="svg-features red">
+                            <use class="svg-icon-custm" href="./images/tiny.svg#icon-heart" width="18" height="18">
+                            </use>
+                        </svg>
+                    </div>
+                    <h3 class="title3-feature-cust">Fastest way to organize</h3>
+                    <p class="customer-meaning">Product helps you see how many
                         more days you need to work
                         to reach your financial goal
                         for the month and year.</p>
@@ -167,17 +205,29 @@
 
                 </div>
                 <ul class="footer-logo-product">
-                    <li class="foot-insta">
-                        <a href="https://instagram.com/" target="_blank">
-                            <img src="./images/instagrami.png" alt="instagram-image" width="40" height="40"></a>
+
+                    <li class="foot-social">
+                        <a href="" class="footer-social">
+                            <svg class="svg-social" width="24" height="24">
+                                <use href="./images/symbol-social.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="foot-face">
-                        <a href="https://facebook.com/" target="_blank">
-                            <img src="./images/facebooki.png" alt="facebook-image" width="40" height="40"></a>
+                    <li class="foot-social">
+                        <a href="" class="footer-social">
+                            <svg class="svg-social" width="24" height="24">
+                                <use href="./images/symbol-social.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="foot-twit">
-                        <a href="https://twitter.com/" target="_blank">
-                            <img src="./images/twitteri.png" alt="twitter-image" width="40" height="40"></a>
+                    <li class="foot-social">
+                        <a href="" class="footer-social">
+                            <svg class="svg-social" width="24" height="24">
+                                <use href="./images/symbol-social.svg#icon-Vector-2">
+                                </use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
