@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <!-- Google Fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,8 +15,7 @@
         rel="stylesheet">
     <title>Resources</title>
     <link rel="stylesheet" href="./css/style.css">
-
-
+    <link rel="stylesheet" href="./css/resources.css">
 </head>
 
 <body>
@@ -46,16 +45,40 @@
                 <li class="btn-item">
                     <button class="button-header second" type="button">Sign Up</button>
                 </li>
+                <li class="frame">
+                    <button class="frame-button" type="button">
+                        <svg class="frame-svg" width="24" height="24">
+                            <use href="./images/frame-btn.svg#icon-Frame"></use>
+                        </svg>
+                    </button>
             </ul>
         </div>
     </header>
     <main>
-        <section class="strategy  section">
-            <div class="strategy-head">
-                <h2 class="strategy-h2">Latest Stories</h2>
-                <p class="strategy-h2-text">We focus on ergonomics and meeting you where you work. It's only a keystroke
-                    away.</p>
+        <section class="hero-resorces">
+            <div class="container-hero-resources">
+                <div class="hero-content-resources1">
+                    <h1 class="hero-title-resources">Great Business made with Product.</h1>
+                    <p class="hero-text-resources">Build better customer relationships easily messaging that provides a
+                        more personal experience for you and your
+                        customers.</p>
+                    <div class="resources-input-container">
+                        <input type="email" name="email" placeholder="Enter your email adress" class="hero-input"
+                            required>
+                        <button class="hero-resources-button" type="submit">Join Now</button>
+                    </div>
+                </div>
+                <div class="hero-content-resources2">
+                    <img class="hero-img-resources" src="./images/Group-452-2.jpg" alt="hero-image">
+                </div>
             </div>
+        </section>
+
+        <section class=" strategy section">
+            <h2 class="strategy-h2">Latest Stories</h2>
+            <p class="strategy-h2-text">We focus on ergonomics and meeting you where you work. It's only a
+                keystroke
+                away.</p>
             <div class="strategy-cards-container">
                 <div class="strategy-cont-plus">
                     <img class="strategy-img" src="./images/image-bg.jpg" alt="computers" width="350">
@@ -68,7 +91,7 @@
                     <img class="strategy-img" src="./images/man-speaking.png" alt="viewpoint" width="350">
                     <div class="cards-str-content">
                         <p class="strategy-cont-text">By <strong>Wahid Ari</strong> | 03 March 2019</p>
-                        <h3 class="strategy-cont-title"><strong>Motivation Is The First Step To Success</strong></h3>
+                        <h3 class="strategy-cont-title">Motivation Is The First Step To Success</h3>
                     </div>
                 </div>
                 <div class="strategy-cont-plus">
@@ -89,7 +112,7 @@
                     <img class="strategy-img" src="./images/man-typing.png" alt="viewpoint" width="350">
                     <div class="cards-str-content">
                         <p class="strategy-cont-text">By <strong>Wahid Ari</strong> | 03 March 2019</p>
-                        <h3 class="strategy-cont-title"><strong>Motivation Is The First Step To Success</strong></h3>
+                        <h3 class="strategy-cont-title">Motivation Is The First Step To Success</h3>
                     </div>
                 </div>
                 <div class="strategy-cont-plus">
@@ -98,6 +121,15 @@
                         <p class="strategy-cont-text">By <strong>Wahid Ari </strong> | 03 March 2019</p>
                         <h3 class="strategy-cont-title">Success Steps For Your Personal Or Business</h3>
                     </div>
+                </div>
+                <div class="svg-container">
+                    <p class="title-statedy-end">More Stories</p>
+                    <a class="svg-cont" href="/">
+                        <svg class="arrow-svg" width="20" height="20">
+                            <use class="arrow-icon-svg" href="./images/arrow-icon.svg#icon-circle_right">
+                            </use>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </section>
@@ -157,17 +189,28 @@
 
                 </div>
                 <ul class="footer-logo-product">
-                    <li class="foot-insta">
-                        <a href="https://instagram.com/" target="_blank">
-                            <img src="./images/instagrami.png" alt="instagram-image" width="40" height="40"></a>
+                    <li class="foot-social">
+                        <a href="" class="footer-social">
+                            <svg class="svg-social" width="24" height="24">
+                                <use href="./images/symbol-social.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="foot-face">
-                        <a href="https://facebook.com/" target="_blank">
-                            <img src="./images/facebooki.png" alt="facebook-image" width="40" height="40"></a>
+                    <li class="foot-social">
+                        <a href="" class="footer-social">
+                            <svg class="svg-social" width="24" height="24">
+                                <use href="./images/symbol-social.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="foot-twit">
-                        <a href="https://twitter.com/" target="_blank">
-                            <img src="./images/twitteri.png" alt="twitter-image" width="40" height="40"></a>
+                    <li class="foot-social">
+                        <a href="" class="footer-social">
+                            <svg class="svg-social" width="24" height="24">
+                                <use href="./images/symbol-social.svg#icon-Vector-2">
+                                </use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>

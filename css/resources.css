@@ -1,0 +1,192 @@
+.frame {
+  margin: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+}
+.frame-button {
+  border-radius: 100px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  padding: 0;
+  background: #f3f3f3;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.frame-svg {
+  margin: auto;
+  width: 24px;
+  height: 24px;
+}
+.hero-resorces {
+  width: 1122px;
+  margin: auto;
+}
+.container-hero-resources {
+  margin: auto;
+  display: flex;
+}
+.hero-content-resources1 {
+}
+.hero-title-resources {
+}
+.hero-text-resources {
+}
+.resources-input-container {
+  position: relative;
+  width: 100%;
+  max-width: 470px; /* Можеш збільшити, якщо треба */
+}
+
+.hero-input {
+  width: 100%;
+  padding: 15px 120px 15px 15px; /* Padding справа зменшено, щоб кнопка влізла */
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-size: 16px;
+  outline: none;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.hero-resources-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #02897a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 80%;
+  width: 117px; /* Фіксована ширина кнопки, щоб не розтягувалася */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.resources-input-container .hero-input {
+  max-width: 100%;
+}
+.hero-content-resources2 {
+}
+.hero-img-resources {
+}
+.strategy {
+  margin: auto;
+  width: 1110px;
+  margin-bottom: 100px;
+}
+.section {
+}
+
+.strategy-h2 {
+  margin: auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 8px;
+  width: 235px;
+}
+.strategy-h2-text {
+  margin: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #22343d;
+  margin-bottom: 32px;
+  max-width: 693px;
+}
+.strategy-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  row-gap: 32px;
+}
+.strategy-cont-plus {
+  width: calc((100% - 64px) / 3);
+  max-width: 348px;
+  height: 359px;
+}
+.strategy-img {
+}
+.cards-str-content {
+  padding-left: 24px;
+}
+.strategy-cont-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  padding-right: 0;
+  padding-left: 0;
+}
+.strategy-cont-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  color: #22343d;
+  max-width: 294px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.svg-container {
+  margin: auto;
+  gap: 8px;
+  display: flex;
+}
+.title-statedy-end {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #22343d;
+}
+.svg-cont {
+  margin: auto;
+  display: flex;
+}
+.arrow-svg {
+}
+.arrow-icon-svg {
+}
+
+.send-message-form {
+  background-color: #fff;
+
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form-title {
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form-textarea {
+  resize: none;
+}
+
+.form-button {
+  background-color: #2e755d;
+  color: white;
+
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #235b49;
+}

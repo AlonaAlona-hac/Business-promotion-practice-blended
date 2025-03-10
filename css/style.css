@@ -1083,39 +1083,5 @@ input {
   fill: #edfffc;
 }
 /*resources*/
-.send-message-form {
-  background-color: #fff;
-
-  text-align: center;
-  margin: 0 auto;
-}
-
-.form-title {
-}
-
-.form-input,
-.form-textarea {
-  width: 100%;
-  border: 1px solid #bcd0e5;
-  border-radius: 4px;
-  padding: 12px;
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.form-textarea {
-  resize: none;
-}
-
-.form-button {
-  background-color: #2e755d;
-  color: white;
-
-  cursor: pointer;
-}
-
-.form-button:hover {
-  background-color: #235b49;
-}
 
 /*pricing*/
