@@ -1,3 +1,12 @@
+.header {
+  margin-bottom: 77px;
+}
+.header-container {
+  max-width: 1400px;
+}
+.nav-list {
+  align-items: center;
+}
 .frame {
   margin: 0;
   width: 32px;
@@ -23,6 +32,7 @@
 .hero-resorces {
   width: 1122px;
   margin: auto;
+  margin-bottom: 52px;
 }
 .container-hero-resources {
   margin: auto;
@@ -31,8 +41,22 @@
 .hero-content-resources1 {
 }
 .hero-title-resources {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.49;
+  letter-spacing: -0.03em;
+  color: #22343d;
+  margin-bottom: 24px;
+  max-width: 380px;
 }
 .hero-text-resources {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: -0.03em;
+  color: #22343d;
+  max-width: 535px;
+  margin-bottom: 24px;
 }
 .resources-input-container {
   position: relative;
@@ -42,18 +66,26 @@
 
 .hero-input {
   width: 100%;
-  padding: 15px 120px 15px 15px; /* Padding справа зменшено, щоб кнопка влізла */
+  padding: 15px 120px 15px 15px;
   border: 1px solid #ccc;
   border-radius: 50px;
   font-size: 16px;
   outline: none;
-  height: 50px;
+  height: 66px;
   box-sizing: border-box;
+}
+input::placeholder {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #22343d;
 }
 
 .hero-resources-button {
   position: absolute;
-  right: 0;
+  right: 5px;
   top: 50%;
   transform: translateY(-50%);
   background-color: #02897a;
@@ -75,6 +107,8 @@
 .hero-content-resources2 {
 }
 .hero-img-resources {
+  max-width: 541px;
+  height: 483px;
 }
 .strategy {
   margin: auto;
@@ -189,4 +223,47 @@
 
 .form-button:hover {
   background-color: #235b49;
+}
+.image-group {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+
+  width: 121px;
+  height: 50px;
+}
+.text-group {
+  margin-left: 9px;
+}
+.text-image-group {
+  width: 157px;
+}
+span {
+  color: #02897a;
+}
+.contact-info {
+  margin: auto;
+  text-align: center;
+}
+.container {
+}
+.container-contact {
+  max-width: 871px;
+}
+.contact-h3 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.67;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #252b42;
+  margin-bottom: 14px;
+}
+.contact-p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #374754;
 }
