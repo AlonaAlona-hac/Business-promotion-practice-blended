@@ -2,7 +2,7 @@
   margin-bottom: 77px;
 }
 .header-container {
-  max-width: 1400px;
+  width: 1400px;
 }
 .nav-list {
   align-items: center;
@@ -37,6 +37,7 @@
 .container-hero-resources {
   margin: auto;
   display: flex;
+  justify-content: space-between;
 }
 .hero-content-resources1 {
 }
